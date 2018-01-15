@@ -4,12 +4,16 @@
   "description": "Make a game called shooter that is like a single room of Binding of Isaac",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist/",
+    "build": "webpack",
+    "postbuild": "echo 'Build Finished!'"
   },
   "author": "John McClown",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.4",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.1",
+    "rimraf": "^2.6.2",
     "webpack": "^3.10.0"
   }
 }
