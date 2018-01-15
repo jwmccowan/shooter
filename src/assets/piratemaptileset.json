@@ -1,0 +1,12 @@
+{ "columns":16,
+ "image":"kenney_piratepack\/Tilesheet\/tiles_sheet.png",
+ "imageheight":384,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"piratemaptileset",
+ "spacing":0,
+ "tilecount":96,
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset"
+}
