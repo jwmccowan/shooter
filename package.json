@@ -1,0 +1,15 @@
+{
+  "name": "shooter",
+  "version": "0.0.1",
+  "description": "Make a game called shooter that is like a single room of Binding of Isaac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John McClown",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "webpack": "^3.10.0"
+  }
+}
