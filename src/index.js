@@ -17,25 +17,6 @@ function create() {
     playerboat = createPlayerBoat();
 
     cursors = this.input.keyboard.createCursorKeys();
-    // var controlConfig = {
-    //     camera: this.cameras.main,
-    //     left: cursors.left,
-    //     right: cursors.right,
-    //     up: cursors.up,
-    //     down: cursors.down,
-    //     speed: 0.5
-    // };
-    // controls = this.cameras.addKeyControl(controlConfig);
-
-    // var help = this.add.text(16, 16, 'Arrow keys to scroll', {
-    //     fontSize: '18px',
-    //     padding: { x: 10, y: 5 },
-    //     backgroundColor: '#000000',
-    //     fill: '#ffffff'
-    // });
-
-    // help.setScrollFactor(0);
-
 
 }
 
