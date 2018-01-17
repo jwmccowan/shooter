@@ -1,6 +1,6 @@
 {
   "name": "shooter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Make a game called shooter that is like a single room of Binding of Isaac",
   "main": "index.js",
   "scripts": {
