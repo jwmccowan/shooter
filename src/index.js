@@ -55,6 +55,7 @@ function createPlayerBoat(game) {
     game.physics.world.enable([p]);
     p.body.maxAngular = MAX_ANGULAR_VELOCITY;
     p.body.maxVelocity = MAX_SHIP_VELOCITY;
+    p.body.collideWorldBounds = true;
     boatSpeed = 0;
     return p;
 }
