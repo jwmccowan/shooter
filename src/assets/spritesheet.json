@@ -1,0 +1,2050 @@
+{
+    "frames": {
+        "cannon.png": {
+            "frame": {
+                "x": 88,
+                "y": 422,
+                "w": 29,
+                "h": 16
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 29,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 29,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "cannonBall.png": {
+            "frame": {
+                "x": 120,
+                "y": 29,
+                "w": 10,
+                "h": 10
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "cannonLoose.png": {
+            "frame": {
+                "x": 439,
+                "y": 496,
+                "w": 20,
+                "h": 12
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 12
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 12
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "cannonMobile.png": {
+            "frame": {
+                "x": 408,
+                "y": 489,
+                "w": 29,
+                "h": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 29,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 29,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "crew (1).png": {
+            "frame": {
+                "x": 511,
+                "y": 489,
+                "w": 22,
+                "h": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "crew (2).png": {
+            "frame": {
+                "x": 463,
+                "y": 489,
+                "w": 22,
+                "h": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "crew (3).png": {
+            "frame": {
+                "x": 487,
+                "y": 489,
+                "w": 22,
+                "h": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "crew (4).png": {
+            "frame": {
+                "x": 568,
+                "y": 469,
+                "w": 22,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "crew (5).png": {
+            "frame": {
+                "x": 439,
+                "y": 472,
+                "w": 22,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "crew (6).png": {
+            "frame": {
+                "x": 544,
+                "y": 469,
+                "w": 22,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "dinghyLarge1.png": {
+            "frame": {
+                "x": 606,
+                "y": 145,
+                "w": 20,
+                "h": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "dinghyLarge2.png": {
+            "frame": {
+                "x": 610,
+                "y": 426,
+                "w": 20,
+                "h": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "dinghyLarge3.png": {
+            "frame": {
+                "x": 588,
+                "y": 426,
+                "w": 20,
+                "h": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "dinghySmall1.png": {
+            "frame": {
+                "x": 628,
+                "y": 166,
+                "w": 16,
+                "h": 26
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "dinghySmall2.png": {
+            "frame": {
+                "x": 612,
+                "y": 110,
+                "w": 16,
+                "h": 26
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "dinghySmall3.png": {
+            "frame": {
+                "x": 628,
+                "y": 138,
+                "w": 16,
+                "h": 26
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "explosion1.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 75
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 75
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "explosion2.png": {
+            "frame": {
+                "x": 544,
+                "y": 145,
+                "w": 60,
+                "h": 59
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 59
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "explosion3.png": {
+            "frame": {
+                "x": 544,
+                "y": 426,
+                "w": 42,
+                "h": 41
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 41
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "fire1.png": {
+            "frame": {
+                "x": 614,
+                "y": 466,
+                "w": 18,
+                "h": 39
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "fire2.png": {
+            "frame": {
+                "x": 120,
+                "y": 0,
+                "w": 11,
+                "h": 27
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "flag (1).png": {
+            "frame": {
+                "x": 120,
+                "y": 41,
+                "w": 6,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 6,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 6,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "flag (2).png": {
+            "frame": {
+                "x": 600,
+                "y": 486,
+                "w": 6,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 6,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 6,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "flag (3).png": {
+            "frame": {
+                "x": 630,
+                "y": 110,
+                "w": 6,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 6,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 6,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "flag (4).png": {
+            "frame": {
+                "x": 128,
+                "y": 41,
+                "w": 6,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 6,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 6,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "flag (5).png": {
+            "frame": {
+                "x": 592,
+                "y": 486,
+                "w": 6,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 6,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 6,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "flag (6).png": {
+            "frame": {
+                "x": 632,
+                "y": 426,
+                "w": 6,
+                "h": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 6,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 6,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullLarge (1).png": {
+            "frame": {
+                "x": 596,
+                "y": 316,
+                "w": 50,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullLarge (2).png": {
+            "frame": {
+                "x": 544,
+                "y": 206,
+                "w": 50,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullLarge (3).png": {
+            "frame": {
+                "x": 596,
+                "y": 206,
+                "w": 50,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullLarge (4).png": {
+            "frame": {
+                "x": 544,
+                "y": 316,
+                "w": 50,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullSmall (1).png": {
+            "frame": {
+                "x": 612,
+                "y": 0,
+                "w": 40,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullSmall (2).png": {
+            "frame": {
+                "x": 648,
+                "y": 330,
+                "w": 40,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullSmall (3).png": {
+            "frame": {
+                "x": 648,
+                "y": 110,
+                "w": 40,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "hullSmall (4).png": {
+            "frame": {
+                "x": 648,
+                "y": 220,
+                "w": 40,
+                "h": 108
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "nest.png": {
+            "frame": {
+                "x": 592,
+                "y": 466,
+                "w": 20,
+                "h": 18
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 18
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 18
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "pole.png": {
+            "frame": {
+                "x": 119,
+                "y": 422,
+                "w": 12,
+                "h": 11
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 12,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 12,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (1).png": {
+            "frame": {
+                "x": 408,
+                "y": 279,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (10).png": {
+            "frame": {
+                "x": 408,
+                "y": 328,
+                "w": 66,
+                "h": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (11).png": {
+            "frame": {
+                "x": 408,
+                "y": 376,
+                "w": 66,
+                "h": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (12).png": {
+            "frame": {
+                "x": 408,
+                "y": 424,
+                "w": 66,
+                "h": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (13).png": {
+            "frame": {
+                "x": 476,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (14).png": {
+            "frame": {
+                "x": 476,
+                "y": 49,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (15).png": {
+            "frame": {
+                "x": 136,
+                "y": 460,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (16).png": {
+            "frame": {
+                "x": 68,
+                "y": 460,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (17).png": {
+            "frame": {
+                "x": 476,
+                "y": 98,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (18).png": {
+            "frame": {
+                "x": 476,
+                "y": 147,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (19).png": {
+            "frame": {
+                "x": 476,
+                "y": 293,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (2).png": {
+            "frame": {
+                "x": 272,
+                "y": 460,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (20).png": {
+            "frame": {
+                "x": 204,
+                "y": 460,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (21).png": {
+            "frame": {
+                "x": 340,
+                "y": 460,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (22).png": {
+            "frame": {
+                "x": 476,
+                "y": 244,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (23).png": {
+            "frame": {
+                "x": 408,
+                "y": 230,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (24).png": {
+            "frame": {
+                "x": 476,
+                "y": 342,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (3).png": {
+            "frame": {
+                "x": 476,
+                "y": 391,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (4).png": {
+            "frame": {
+                "x": 476,
+                "y": 440,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (5).png": {
+            "frame": {
+                "x": 544,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (6).png": {
+            "frame": {
+                "x": 0,
+                "y": 460,
+                "w": 66,
+                "h": 47
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (7).png": {
+            "frame": {
+                "x": 476,
+                "y": 196,
+                "w": 66,
+                "h": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (8).png": {
+            "frame": {
+                "x": 544,
+                "y": 97,
+                "w": 66,
+                "h": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailLarge (9).png": {
+            "frame": {
+                "x": 544,
+                "y": 49,
+                "w": 66,
+                "h": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (1).png": {
+            "frame": {
+                "x": 0,
+                "y": 422,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (10).png": {
+            "frame": {
+                "x": 44,
+                "y": 422,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (11).png": {
+            "frame": {
+                "x": 0,
+                "y": 433,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (12).png": {
+            "frame": {
+                "x": 44,
+                "y": 433,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (13).png": {
+            "frame": {
+                "x": 44,
+                "y": 444,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (2).png": {
+            "frame": {
+                "x": 0,
+                "y": 444,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (3).png": {
+            "frame": {
+                "x": 76,
+                "y": 0,
+                "w": 42,
+                "h": 8
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (4).png": {
+            "frame": {
+                "x": 76,
+                "y": 10,
+                "w": 42,
+                "h": 8
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (5).png": {
+            "frame": {
+                "x": 76,
+                "y": 20,
+                "w": 42,
+                "h": 8
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (6).png": {
+            "frame": {
+                "x": 76,
+                "y": 30,
+                "w": 42,
+                "h": 8
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (7).png": {
+            "frame": {
+                "x": 76,
+                "y": 40,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (8).png": {
+            "frame": {
+                "x": 76,
+                "y": 62,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "sailSmall (9).png": {
+            "frame": {
+                "x": 76,
+                "y": 51,
+                "w": 42,
+                "h": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 9
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (1).png": {
+            "frame": {
+                "x": 408,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (10).png": {
+            "frame": {
+                "x": 340,
+                "y": 345,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (11).png": {
+            "frame": {
+                "x": 340,
+                "y": 230,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (12).png": {
+            "frame": {
+                "x": 340,
+                "y": 115,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (13).png": {
+            "frame": {
+                "x": 340,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (14).png": {
+            "frame": {
+                "x": 272,
+                "y": 345,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (15).png": {
+            "frame": {
+                "x": 272,
+                "y": 230,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (16).png": {
+            "frame": {
+                "x": 272,
+                "y": 115,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (17).png": {
+            "frame": {
+                "x": 272,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (18).png": {
+            "frame": {
+                "x": 204,
+                "y": 345,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (19).png": {
+            "frame": {
+                "x": 204,
+                "y": 230,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (2).png": {
+            "frame": {
+                "x": 408,
+                "y": 115,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (20).png": {
+            "frame": {
+                "x": 204,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (21).png": {
+            "frame": {
+                "x": 136,
+                "y": 345,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (22).png": {
+            "frame": {
+                "x": 136,
+                "y": 230,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (23).png": {
+            "frame": {
+                "x": 136,
+                "y": 115,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (24).png": {
+            "frame": {
+                "x": 136,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (3).png": {
+            "frame": {
+                "x": 204,
+                "y": 115,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (4).png": {
+            "frame": {
+                "x": 68,
+                "y": 192,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (5).png": {
+            "frame": {
+                "x": 68,
+                "y": 77,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (6).png": {
+            "frame": {
+                "x": 68,
+                "y": 307,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (7).png": {
+            "frame": {
+                "x": 0,
+                "y": 192,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (8).png": {
+            "frame": {
+                "x": 0,
+                "y": 307,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "ship (9).png": {
+            "frame": {
+                "x": 0,
+                "y": 77,
+                "w": 66,
+                "h": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "wood (1).png": {
+            "frame": {
+                "x": 88,
+                "y": 449,
+                "w": 15,
+                "h": 7
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 15,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 15,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "wood (2).png": {
+            "frame": {
+                "x": 408,
+                "y": 472,
+                "w": 26,
+                "h": 10
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "wood (3).png": {
+            "frame": {
+                "x": 116,
+                "y": 440,
+                "w": 15,
+                "h": 10
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 15,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 15,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "wood (4).png": {
+            "frame": {
+                "x": 88,
+                "y": 440,
+                "w": 26,
+                "h": 7
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false
+        }
+    },
+    "meta": {
+        "app": "TextureAtlasConverter",
+        "version": 1,
+        "sprites": 102,
+        "image": "shipsMiscellaneous_sheet.png"
+    }
+}
