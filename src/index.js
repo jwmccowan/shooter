@@ -1,49 +1,40 @@
 import Phaser from "./phaser/phaser.js";
+import config from "./config.js";
 
 var map;
-var controls;
 var cursors;
-
-var boatSpeed;
 
 var playerboat;
 
-// Max we allow the boat to spin
-const MAX_ANGULAR_VELOCITY = 30;
-// Delta - How quickly the boat gains angular velocity
-const D_ANGULAR_VELOCITY = 2;
-// Friction - How quickly angular velocity degrades without input
-const F_ANGULAR_VELOCITY = 1;
-// Max speed we allow the boat to go
-const MAX_SHIP_VELOCITY = 85;
-// Delta - How quickly the boat accelerates
-const D_SHIP_VELOCITY = 2;
-// Brakes - How quickly the boat decelerates while braking
-const B_SHIP_VELOCITY = 1;
-// Friction - How quickly boat decelerates without input
-const F_SHIP_VELOCITY = .5;
-const GAME_HEIGHT = 640;
-const GAME_WIDTH = 640;
-
 function preload() {
+    // Load map resources
     this.load.image('tiles', 'assets/tiles_sheet.png');
     this.load.tilemapJSON('map', 'assets/piratemap.json');
+
+    // Load spritesheet for boats
     this.load.atlas('playerboat', 'assets/shipsMiscellaneous_sheet.png', 'assets/spritesheet.json');
 }
 
 function create() {
+    // Init objects
     map = createMap(this);
     playerboat = createPlayerBoat(this);
 
-    this.physics.world.setBounds(0, 0, GAME_WIDTH, GAME_HEIGHT);
-    cursors = game.input.keyboard.createCursorKeys();
+    // Init physics
+    this.physics.world.setBounds(320, 320, (config.MAP_WIDTH*config.TILE_HEIGHT)-640, (config.MAP_HEIGHT*config.TILE_HEIGHT)-640);
+    this.physics.world.disableGravity();
 
+    //Init game systems
+    cursors = game.input.keyboard.createCursorKeys();
 }
 
 function createMap(game) {
+    // Init Map
     let m = game.make.tilemap({ key: 'map' });
     var tiles = m.addTilesetImage('piratemaptileset','tiles');
 
+    // Init the three layers
+    // TODO: could be done in a loop, might need to do them separately if we involve bounds
     var waterLayer = m.createStaticLayer(0, tiles, 0, 0);
     var shoreLayer = m.createStaticLayer(1, tiles, 0, 0);
     var foliageLayer = m.createStaticLayer(2, tiles, 0, 0);
@@ -51,12 +42,16 @@ function createMap(game) {
 }
 
 function createPlayerBoat(game) {
-    let p = game.add.sprite(200,300,'playerboat',"ship (2).png");
-    game.physics.world.enable([p]);
-    p.body.maxAngular = MAX_ANGULAR_VELOCITY;
-    p.body.maxVelocity = MAX_SHIP_VELOCITY;
-    p.body.collideWorldBounds = true;
-    boatSpeed = 0;
+    // Init player boat
+    let p = game.physics.add.sprite(500,500,'playerboat',"ship (2).png");
+
+    // The camera follows the boat
+    game.cameras.main.startFollow(p);
+
+    //Set physical properties
+    p.setBounce(.2);
+    p.setMass(10000);
+    p.setFriction(.4);
     return p;
 }
 
@@ -65,48 +60,37 @@ function update(time,delta) {
 }
 
 function updatePlayerBoat(game) {
-    let av = playerboat.body.angularVelocity;
+    // Turn the boat
     if (cursors.left.isDown) {
-        playerboat.body.angularVelocity -= D_ANGULAR_VELOCITY;
+        playerboat.setAngularVelocity(-1*config.D_ANGULAR_VELOCITY);
     } else if (cursors.right.isDown) {
-        playerboat.body.angularVelocity += D_ANGULAR_VELOCITY;
-    } else {
-        if (av < D_ANGULAR_VELOCITY && av > -1*D_ANGULAR_VELOCITY) {
-            playerboat.body.angularVelocity = 0;
-        } else if (playerboat.body.angularVelocity > 0) {
-            playerboat.body.angularVelocity -= F_ANGULAR_VELOCITY;
-        } else if (playerboat.body.angularVelocity < 0) {
-            playerboat.body.angularVelocity += F_ANGULAR_VELOCITY;
-        }
+        playerboat.setAngularVelocity(config.D_ANGULAR_VELOCITY);
     }
 
+    // Thrust the boat
+    // HACK: since I don't want to repack the sprite sheet with a rotated sprite,
+    // we use thrust right and thrust left instead of thrust and thrust back
     if (cursors.up.isDown) {
-        boatSpeed += D_SHIP_VELOCITY;
-        
+        playerboat.thrustRight(config.D_SHIP_VELOCITY);
     } else if (cursors.down.isDown) {
-        if (boatSpeed > -1*D_SHIP_VELOCITY) {
-            boatSpeed -= B_SHIP_VELOCITY;
-        }
+        playerboat.thrustLeft(config.B_SHIP_VELOCITY);
     } else {
-        if (boatSpeed > 0) {
-            boatSpeed -= F_SHIP_VELOCITY;
-        }
+        playerboat.thrustRight(config.A_SHIP_VELOCITY);
     }
-
-    game.physics.world.velocityFromAngle(playerboat.angle + 90, boatSpeed, playerboat.body.velocity);
 }
 
-var config = {
+// Game config, pretty basic
+// Right now using matter.js physics engine
+var game_config = {
     type: Phaser.CANVAS,
-    width: GAME_WIDTH,
-    height: GAME_HEIGHT,
+    width: config.GAME_WIDTH,
+    height: config.GAME_HEIGHT,
     backgroundColor: '#1b262c',
     pixelArt: true,
     physics: {
-        default: 'arcade',
-        arcade: {
-            debug: false,
-            gravity: { y: 0 }
+        default: 'matter',
+        matter: {
+            debug: false
         }
     },
     scene: {
@@ -116,4 +100,5 @@ var config = {
     }
 };
 
-var game = new Phaser.Game(config);
+// Yee init that game
+var game = new Phaser.Game(game_config);
